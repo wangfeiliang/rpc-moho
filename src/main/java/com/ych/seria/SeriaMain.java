@@ -13,11 +13,11 @@ public class SeriaMain {
 
     System.out.println(JSON.toJSONString(serUser));
 
-    ISerializer xmlSerializer=new XmlSerializer();
+    /*ISerializer xmlSerializer=new XmlSerializer();
     byte[] xmlBytes=xmlSerializer.serialize(user);
     System.out.println("XmlSerializer serialize:"+xmlBytes.length);
     User xmlUser=xmlSerializer.deserialize(xmlBytes,User.class);
-    System.out.println(xmlUser.getName());
+    System.out.println(xmlUser.getName());*/
 
   }
 }
