@@ -10,6 +10,14 @@ public class SeriaMain {
     byte[] bytes=iSerializer.serialize(user);
     System.out.println("DefaultJavaSerializer serialize:"+bytes.length);
     User serUser=iSerializer.deserialize(bytes,User.class);
+
     System.out.println(JSON.toJSONString(serUser));
+
+    ISerializer xmlSerializer=new XmlSerializer();
+    byte[] xmlBytes=xmlSerializer.serialize(user);
+    System.out.println("XmlSerializer serialize:"+xmlBytes.length);
+    User xmlUser=xmlSerializer.deserialize(xmlBytes,User.class);
+    System.out.println(xmlUser.getName());
+
   }
 }
