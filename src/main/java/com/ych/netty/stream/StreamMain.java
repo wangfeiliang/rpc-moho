@@ -18,6 +18,7 @@ import java.io.PrintStream;
 import java.nio.charset.Charset;
 
 /**
+ * 字节操作类
  * Created by wangfeiliang on 2018/12/20.
  */
 public class StreamMain {
