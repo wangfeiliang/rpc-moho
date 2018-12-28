@@ -1,4 +1,4 @@
-package com.ych.netty;
+package com.ych.internet;
 
 /**
  * Created by wangfeiliang on 2018/12/20.

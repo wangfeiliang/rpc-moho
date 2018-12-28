@@ -1,4 +1,4 @@
-package com.ych.netty.stream;
+package com.ych.internet.stream;
 
 import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
 import com.ych.seria.User;

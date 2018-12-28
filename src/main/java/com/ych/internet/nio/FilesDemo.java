@@ -1,4 +1,4 @@
-package com.ych.netty.nio;
+package com.ych.internet.nio;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

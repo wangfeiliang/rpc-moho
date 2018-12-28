@@ -1,4 +1,4 @@
-package com.ych.netty.socket;
+package com.ych.internet.socket;
 
 import java.io.IOException;
 import java.net.ServerSocket;

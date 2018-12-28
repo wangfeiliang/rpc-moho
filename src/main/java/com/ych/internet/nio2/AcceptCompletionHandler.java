@@ -1,4 +1,4 @@
-package com.ych.netty.nio2;
+package com.ych.internet.nio2;
 
 import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousSocketChannel;

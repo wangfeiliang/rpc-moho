@@ -1,4 +1,4 @@
-package com.ych.netty.reader;
+package com.ych.internet.reader;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
